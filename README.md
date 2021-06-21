@@ -1,13 +1,23 @@
 # delta-py
 Python port of the R delta_statistic
 
-Based on:
-https://academic.oup.com/bioinformatics/article/35/11/1862/5144670
+Based on delta_statistic:
+https://doi.org/10.1093/bioinformatics/bty800
 https://github.com/mrborges23/delta_statistic
 
 It uses PastML MPPA for ACR:
 https://academic.oup.com/mbe/article/36/9/2069/5498561
 https://github.com/evolbioinfo/pastml
+
+## Citations
+
+- delta statistic:
+
+Rui Borges, João Paulo Machado, Cidália Gomes, Ana Paula Rocha, Agostinho Antunes, Measuring phylogenetic signal between categorical traits and phylogenies, Bioinformatics, Volume 35, Issue 11, 1 June 2019, Pages 1862–1869, https://doi.org/10.1093/bioinformatics/bty800
+
+- MPPA for ACR:
+
+Sohta A Ishikawa, Anna Zhukova, Wataru Iwasaki, Olivier Gascuel, A Fast Likelihood Method to Reconstruct and Visualize Ancestral Scenarios, Molecular Biology and Evolution, Volume 36, Issue 9, September 2019, Pages 2069–2085, https://doi.org/10.1093/molbev/msz131
 
 ## Requirements
 
