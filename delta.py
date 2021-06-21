@@ -58,7 +58,7 @@ def compute_acr_probs(tree, data, columns, threads, data_sep, id_index, verbose 
 
 ##
 # Computes ACR and remove tips
-def get_acr_probs(tree, data_df, columns, threads, data_set, id_index, verbose = False):
+def get_acr_probs(tree, data_df, columns, threads, data_sep, id_index, verbose = False):
     # create file-like object from dataframe
     s_buf = StringIO()
     data_df.to_csv(s_buf)
